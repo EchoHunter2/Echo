@@ -16,8 +16,10 @@ Here are some ideas to get you started:
 -->
 pip install openai
 import openai
-
-# ใส่ API key ของคุณ
+{
+  "public": "d16fbddec956190255f61fd38c56d04b027ac5e3f14ad9e974cd45ed9645ef91",
+  "private": "a2068a7b163e5d76dc7d0f27f2205329ad14f762e4f10f2fab879311e15f8c2e"
+}
 openai.api_key = 'your-api-key-here'
 
 def generate_response(prompt):
